@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "id": "start_1750138175405",
+      "type": "triggerNode",
+      "position": {
+        "x": 372.58257211538455,
+        "y": 18
+      },
+      "data": {
+        "nodeId": "start",
+        "label": "Bắt đầu",
+        "description": "Điểm bắt đầu của workflow. Không có tham số.",
+        "parameters": {}
+      }
+    },
+    {
+      "id": "openURL_1750138178757",
+      "type": "actionNode",
+      "position": {
+        "x": 491.8007211538462,
+        "y": 52.18762019230769
+      },
+      "data": {
+        "nodeId": "openURL",
+        "label": "Mở URL",
+        "description": "Mở một trang web. Tham số: url (string, ví dụ: \"https://www.example.com\"), urlVariableRef (string, ví dụ: \"$targetUrl\"), minWait (ms), maxWait (ms).",
+        "parameters": {
+          "url": "https://www.youtube.com/",
+          "urlVariableRef": "",
+          "minWait": 1000,
+          "maxWait": 3000
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "reactflow__edge-start_1750138175405-openURL_1750138178757",
+      "type": "custom",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {}
+    },
+    {
+      "id": "reactflow__edge-start_1750138175405-openURL_1750138178757",
+      "type": "custom",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {}
+    },
+    {
+      "id": "reactflow__edge-start_1750138175405-openURL_1750138178757",
+      "type": "custom",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {}
+    }
+  ]
+}

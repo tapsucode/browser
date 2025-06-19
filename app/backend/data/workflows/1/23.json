@@ -1,0 +1,20 @@
+{
+  "nodes": [
+    {
+      "id": "start_1749728021641",
+      "type": "triggerNode",
+      "position": {
+        "x": 229,
+        "y": 148
+      },
+      "parameters": {},
+      "data": {
+        "nodeId": "start",
+        "label": "Bắt đầu",
+        "description": "Điểm bắt đầu của workflow. Không có tham số.",
+        "parameters": {}
+      }
+    }
+  ],
+  "edges": []
+}

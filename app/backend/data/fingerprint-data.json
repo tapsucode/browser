@@ -1,0 +1,227 @@
+{
+  "vendors": [
+    {
+      "id": "nvidia",
+      "name": "NVIDIA Corporation"
+    },
+    {
+      "id": "amd",
+      "name": "Advanced Micro Devices, Inc."
+    },
+    {
+      "id": "intel",
+      "name": "Intel Inc."
+    },
+    {
+      "id": "qualcomm",
+      "name": "Qualcomm"
+    },
+    {
+      "id": "arm",
+      "name": "ARM"
+    }
+  ],
+  "renderers": {
+    "nvidia": [
+      {
+        "id": "gtx1060",
+        "name": "NVIDIA GeForce GTX 1060",
+        "vendorId": "nvidia"
+      },
+      {
+        "id": "gtx1070",
+        "name": "NVIDIA GeForce GTX 1070", 
+        "vendorId": "nvidia"
+      },
+      {
+        "id": "gtx1080",
+        "name": "NVIDIA GeForce GTX 1080",
+        "vendorId": "nvidia"
+      },
+      {
+        "id": "rtx3060",
+        "name": "NVIDIA GeForce RTX 3060",
+        "vendorId": "nvidia"
+      },
+      {
+        "id": "rtx3070",
+        "name": "NVIDIA GeForce RTX 3070",
+        "vendorId": "nvidia"
+      },
+      {
+        "id": "rtx3080",
+        "name": "NVIDIA GeForce RTX 3080",
+        "vendorId": "nvidia"
+      }
+    ],
+    "amd": [
+      {
+        "id": "rx580",
+        "name": "AMD Radeon RX 580",
+        "vendorId": "amd"
+      },
+      {
+        "id": "rx6700xt",
+        "name": "AMD Radeon RX 6700 XT",
+        "vendorId": "amd"
+      },
+      {
+        "id": "rx6800xt",
+        "name": "AMD Radeon RX 6800 XT",
+        "vendorId": "amd"
+      }
+    ],
+    "intel": [
+      {
+        "id": "uhd620",
+        "name": "Intel UHD Graphics 620",
+        "vendorId": "intel"
+      },
+      {
+        "id": "iris_xe",
+        "name": "Intel Iris Xe Graphics",
+        "vendorId": "intel"
+      }
+    ],
+    "qualcomm": [
+      {
+        "id": "adreno640",
+        "name": "Qualcomm Adreno 640",
+        "vendorId": "qualcomm"
+      }
+    ],
+    "arm": [
+      {
+        "id": "mali_g78",
+        "name": "ARM Mali-G78 MP14",
+        "vendorId": "arm"
+      }
+    ]
+  },
+  "hardwareConcurrency": [
+    {
+      "label": "2 cores",
+      "value": "2"
+    },
+    {
+      "label": "4 cores", 
+      "value": "4"
+    },
+    {
+      "label": "6 cores",
+      "value": "6"
+    },
+    {
+      "label": "8 cores",
+      "value": "8"
+    },
+    {
+      "label": "12 cores",
+      "value": "12"
+    },
+    {
+      "label": "16 cores",
+      "value": "16"
+    }
+  ],
+  "deviceMemory": [
+    {
+      "label": "4 GB",
+      "value": "4"
+    },
+    {
+      "label": "8 GB",
+      "value": "8"
+    },
+    {
+      "label": "16 GB", 
+      "value": "16"
+    },
+    {
+      "label": "32 GB",
+      "value": "32"
+    }
+  ],
+  "resolutions": [
+    {
+      "label": "1366x768",
+      "value": "1366x768"
+    },
+    {
+      "label": "1920x1080",
+      "value": "1920x1080"
+    },
+    {
+      "label": "2560x1440",
+      "value": "2560x1440"
+    },
+    {
+      "label": "3840x2160",
+      "value": "3840x2160"
+    }
+  ],
+  "browserLanguages": [
+    {
+      "label": "English (US)",
+      "value": "en-US,en;q=0.9"
+    },
+    {
+      "label": "English (UK)", 
+      "value": "en-GB,en;q=0.9"
+    },
+    {
+      "label": "Vietnamese",
+      "value": "vi-VN,vi;q=0.9,en;q=0.8"
+    },
+    {
+      "label": "French",
+      "value": "fr-FR,fr;q=0.9"
+    },
+    {
+      "label": "German",
+      "value": "de-DE,de;q=0.9"
+    },
+    {
+      "label": "Spanish",
+      "value": "es-ES,es;q=0.9"
+    },
+    {
+      "label": "Japanese",
+      "value": "ja-JP,ja;q=0.9"
+    },
+    {
+      "label": "Korean", 
+      "value": "ko-KR,ko;q=0.9"
+    },
+    {
+      "label": "Chinese (Simplified)",
+      "value": "zh-CN,zh;q=0.9"
+    }
+  ],
+  "userAgents": [
+    {
+      "label": "Chrome 120 (Windows 10)",
+      "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    },
+    {
+      "label": "Chrome 119 (Windows 10)",
+      "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+    },
+    {
+      "label": "Firefox 120 (Windows 10)",
+      "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0"
+    },
+    {
+      "label": "Chrome 120 (macOS)",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    },
+    {
+      "label": "Safari 17 (macOS)",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15"
+    },
+    {
+      "label": "Edge 120 (Windows 10)",
+      "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+    }
+  ]
+}
